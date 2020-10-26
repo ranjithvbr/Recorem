@@ -1,0 +1,55 @@
+.cardImg{
+    width: 190px;
+    height: 180px;
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+
+}
+
+.metacardAlign{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    .ant-card-body{
+        padding: 8px 5px;
+    }
+}
+
+.eventText{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 0px 5px;
+    font-size: 12px;
+    span{
+        margin-left: 7px;
+    }
+}
+
+.eventClrRed{
+    color: red;
+}
+
+.Text1{
+    font-size: 11px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.Text2{
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.vacancyText{
+    font-size: 11px;
+    font-weight: 800;
+    color: #6963aa;
+    margin-bottom: 5px;
+}
+
+.onWardsText{
+    font-size: 11px;
+}

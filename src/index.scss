@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-layout-content{
+  background-color: #fafafa !important;
+}
+
+.d-flex{
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,24 @@
+.listContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listMaster{
+    margin-top: 40px;
+    width: 72%;
+    .ant-card{
+        margin-bottom: 5px;
+        border-radius: 7px;
+    }
+}
+
+.upcomingEvent{
+    margin-top: 10px;
+    color: gray;
+}
+
+.setDateMargin{
+    margin-top: 30px;
+    color: gray;
+
+}

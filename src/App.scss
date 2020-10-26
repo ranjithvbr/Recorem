@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-sider-children{
+  background: #fff;
+}
+
+.barContainer{
+  display: flex;
+  border-bottom: 1px solid #f5f2f2;
+}
+
+.companyLogo {
+  font-size: 20px;
+  font-family: system-ui;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #f5f2f2;
+  margin: 15px 0px;
+}
+
+.currentLocation{
+  font-size: 16px;
+  padding: 18px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  .currentLocationIcon{
+    margin-right: 8px;
+    font-size: 18px;
+  }
+}
+
+.userLogo{
+  display: flex;
+  align-items: center;
+  // width: 15%;
+  justify-content: space-between;
+  .userLogoIcon{
+    margin-right: 20px !important;
+  }
+}
+
+.userContainer{
+  display: flex;
+  align-items: center;
+  .bellIcon{
+    padding: 3px;
+    background-color: #dcdbdb;
+    border-radius: 15px;
+    width: 24px;
+    margin-right: 10px;
+  }
+}
+
+.ant-dropdown-link span{
+  color: black;
+}
+
+.ListOfContent{
+  height: 300px;
+  overflow-y: scroll;
+  position: relative;
+  bottom: 60px;
+  box-sizing: content-box;
+}
+
+.recommendedText{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+}
